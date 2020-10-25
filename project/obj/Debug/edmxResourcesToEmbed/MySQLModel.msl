@@ -1,0 +1,1576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MySQLDataModelStoreContainer" CdmEntityContainer="BaglantiCumlesi">
+    <EntitySetMapping Name="elmah_error">
+      <EntityTypeMapping TypeName="MySQLDataModel.elmah_error">
+        <MappingFragment StoreEntitySet="elmah_error">
+          <ScalarProperty Name="AllXml" ColumnName="AllXml" />
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+          <ScalarProperty Name="TimeUtc" ColumnName="TimeUtc" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Host" ColumnName="Host" />
+          <ScalarProperty Name="Application" ColumnName="Application" />
+          <ScalarProperty Name="ErrorId" ColumnName="ErrorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_adminler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_adminler">
+        <MappingFragment StoreEntitySet="tbl_adminler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="root" ColumnName="root" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="kullanici_adi" ColumnName="kullanici_adi" />
+          <ScalarProperty Name="ad_soyad" ColumnName="ad_soyad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_all_http">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_all_http">
+        <MappingFragment StoreEntitySet="tbl_all_http">
+          <ScalarProperty Name="LON" ColumnName="LON" />
+          <ScalarProperty Name="LAT" ColumnName="LAT" />
+          <ScalarProperty Name="IL" ColumnName="IL" />
+          <ScalarProperty Name="ULKE_KOD" ColumnName="ULKE_KOD" />
+          <ScalarProperty Name="ULKE" ColumnName="ULKE" />
+          <ScalarProperty Name="HTTP_USER_AGENT" ColumnName="HTTP_USER_AGENT" />
+          <ScalarProperty Name="HTTP_HOST" ColumnName="HTTP_HOST" />
+          <ScalarProperty Name="HTTP_COOKIE" ColumnName="HTTP_COOKIE" />
+          <ScalarProperty Name="HTTP_ACCEPT_LANGUAGE" ColumnName="HTTP_ACCEPT_LANGUAGE" />
+          <ScalarProperty Name="HTTP_ACCEPT_ENCODING" ColumnName="HTTP_ACCEPT_ENCODING" />
+          <ScalarProperty Name="HTTP_ACCEPT_CHARSET" ColumnName="HTTP_ACCEPT_CHARSET" />
+          <ScalarProperty Name="HTTP_ACCEPT" ColumnName="HTTP_ACCEPT" />
+          <ScalarProperty Name="HTTP_CONNECTION" ColumnName="HTTP_CONNECTION" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="SERVER_SOFTWARE" ColumnName="SERVER_SOFTWARE" />
+          <ScalarProperty Name="SERVER_PROTOCOL" ColumnName="SERVER_PROTOCOL" />
+          <ScalarProperty Name="SERVER_PORT_SECURE" ColumnName="SERVER_PORT_SECURE" />
+          <ScalarProperty Name="SERVER_PORT" ColumnName="SERVER_PORT" />
+          <ScalarProperty Name="SERVER_NAME" ColumnName="SERVER_NAME" />
+          <ScalarProperty Name="SCRIPT_NAME" ColumnName="SCRIPT_NAME" />
+          <ScalarProperty Name="REQUEST_METHOD" ColumnName="REQUEST_METHOD" />
+          <ScalarProperty Name="REMOTE_PORT" ColumnName="REMOTE_PORT" />
+          <ScalarProperty Name="REMOTE_HOST" ColumnName="REMOTE_HOST" />
+          <ScalarProperty Name="REMOTE_ADDR" ColumnName="REMOTE_ADDR" />
+          <ScalarProperty Name="QUERY_STRING" ColumnName="QUERY_STRING" />
+          <ScalarProperty Name="PATH_TRANSLATED" ColumnName="PATH_TRANSLATED" />
+          <ScalarProperty Name="PATH_INFO" ColumnName="PATH_INFO" />
+          <ScalarProperty Name="LOCAL_ADDR" ColumnName="LOCAL_ADDR" />
+          <ScalarProperty Name="INSTANCE_META_PATH" ColumnName="INSTANCE_META_PATH" />
+          <ScalarProperty Name="INSTANCE_ID" ColumnName="INSTANCE_ID" />
+          <ScalarProperty Name="HTTPS_SERVER_SUBJECT" ColumnName="HTTPS_SERVER_SUBJECT" />
+          <ScalarProperty Name="HTTPS_SERVER_ISSUER" ColumnName="HTTPS_SERVER_ISSUER" />
+          <ScalarProperty Name="HTTPS_SECRETKEYSIZE" ColumnName="HTTPS_SECRETKEYSIZE" />
+          <ScalarProperty Name="HTTPS_KEYSIZE" ColumnName="HTTPS_KEYSIZE" />
+          <ScalarProperty Name="HTTPS" ColumnName="HTTPS" />
+          <ScalarProperty Name="GATEWAY_INTERFACE" ColumnName="GATEWAY_INTERFACE" />
+          <ScalarProperty Name="CONTENT_TYPE" ColumnName="CONTENT_TYPE" />
+          <ScalarProperty Name="CONTENT_LENGTH" ColumnName="CONTENT_LENGTH" />
+          <ScalarProperty Name="CERT_SUBJECT" ColumnName="CERT_SUBJECT" />
+          <ScalarProperty Name="CERT_SERVER_SUBJECT" ColumnName="CERT_SERVER_SUBJECT" />
+          <ScalarProperty Name="CERT_SERVER_ISSUER" ColumnName="CERT_SERVER_ISSUER" />
+          <ScalarProperty Name="CERT_SERIALNUMBER" ColumnName="CERT_SERIALNUMBER" />
+          <ScalarProperty Name="CERT_SECRETKEYSIZE" ColumnName="CERT_SECRETKEYSIZE" />
+          <ScalarProperty Name="CERT_KEYSIZE" ColumnName="CERT_KEYSIZE" />
+          <ScalarProperty Name="CERT_ISSUER" ColumnName="CERT_ISSUER" />
+          <ScalarProperty Name="CERT_FLAGS" ColumnName="CERT_FLAGS" />
+          <ScalarProperty Name="CERT_COOKIE" ColumnName="CERT_COOKIE" />
+          <ScalarProperty Name="REMOTE_USER" ColumnName="REMOTE_USER" />
+          <ScalarProperty Name="LOGON_USER" ColumnName="LOGON_USER" />
+          <ScalarProperty Name="AUTH_PASSWORD" ColumnName="AUTH_PASSWORD" />
+          <ScalarProperty Name="AUTH_USER" ColumnName="AUTH_USER" />
+          <ScalarProperty Name="AUTH_TYPE" ColumnName="AUTH_TYPE" />
+          <ScalarProperty Name="APPL_PHYSICAL_PATH" ColumnName="APPL_PHYSICAL_PATH" />
+          <ScalarProperty Name="APPL_MD_PATH" ColumnName="APPL_MD_PATH" />
+          <ScalarProperty Name="ALL_RAW" ColumnName="ALL_RAW" />
+          <ScalarProperty Name="ALL_HTTP" ColumnName="ALL_HTTP" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="kayit_id" ColumnName="kayit_id" />
+          <ScalarProperty Name="tablo" ColumnName="tablo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_aramalar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_aramalar">
+        <MappingFragment StoreEntitySet="tbl_aramalar">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="kelime" ColumnName="kelime" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_bloklar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_bloklar">
+        <MappingFragment StoreEntitySet="tbl_bloklar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="baslik_goster" ColumnName="baslik_goster" />
+          <ScalarProperty Name="detay" ColumnName="detay" />
+          <ScalarProperty Name="tur" ColumnName="tur" />
+          <ScalarProperty Name="sutun" ColumnName="sutun" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_bottomlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_bottomlar">
+        <MappingFragment StoreEntitySet="tbl_bottomlar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_cpy_indirimler_komisyonlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_cpy_indirimler_komisyonlar">
+        <MappingFragment StoreEntitySet="tbl_cpy_indirimler_komisyonlar">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="yuzde" ColumnName="yuzde" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="odeme_sekli_id" ColumnName="odeme_sekli_id" />
+          <ScalarProperty Name="indirimler_komisyonlar_id" ColumnName="indirimler_komisyonlar_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_cpy_odeme_bildirimler_hesap_nolar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_cpy_odeme_bildirimler_hesap_nolar">
+        <MappingFragment StoreEntitySet="tbl_cpy_odeme_bildirimler_hesap_nolar">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="iban" ColumnName="iban" />
+          <ScalarProperty Name="hesap_no" ColumnName="hesap_no" />
+          <ScalarProperty Name="hesap_sahibi" ColumnName="hesap_sahibi" />
+          <ScalarProperty Name="sube_kodu" ColumnName="sube_kodu" />
+          <ScalarProperty Name="sube" ColumnName="sube" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="hesap_nolar_id" ColumnName="hesap_nolar_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_cpy_sanal_pos_oranlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_cpy_sanal_pos_oranlar">
+        <MappingFragment StoreEntitySet="tbl_cpy_sanal_pos_oranlar">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="oran" ColumnName="oran" />
+          <ScalarProperty Name="ay" ColumnName="ay" />
+          <ScalarProperty Name="sanal_pos_id" ColumnName="sanal_pos_id" />
+          <ScalarProperty Name="sanal_pos_oranlar_id" ColumnName="sanal_pos_oranlar_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_cpy_siparisler_kullanicilar_adresler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_cpy_siparisler_kullanicilar_adresler">
+        <MappingFragment StoreEntitySet="tbl_cpy_siparisler_kullanicilar_adresler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="acik_adres" ColumnName="acik_adres" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="posta_kodu" ColumnName="posta_kodu" />
+          <ScalarProperty Name="ilce_id" ColumnName="ilce_id" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="il_id" ColumnName="il_id" />
+          <ScalarProperty Name="il" ColumnName="il" />
+          <ScalarProperty Name="eyalet" ColumnName="eyalet" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="kullanicilar_adresler_id" ColumnName="kullanicilar_adresler_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_cpy_siparisler_kullanicilar_vergi_bilgiler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_cpy_siparisler_kullanicilar_vergi_bilgiler">
+        <MappingFragment StoreEntitySet="tbl_cpy_siparisler_kullanicilar_vergi_bilgiler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="tc_kimlik_no" ColumnName="tc_kimlik_no" />
+          <ScalarProperty Name="vergi_no" ColumnName="vergi_no" />
+          <ScalarProperty Name="vergi_dairesi" ColumnName="vergi_dairesi" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="firma" ColumnName="firma" />
+          <ScalarProperty Name="adres_id" ColumnName="adres_id" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="kullanicilar_vergi_bilgiler_id" ColumnName="kullanicilar_vergi_bilgiler_id" />
+          <ScalarProperty Name="cpy_siparisler_kullanicilar_adresler_id" ColumnName="cpy_siparisler_kullanicilar_adresler_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_cpy_siparisler_urunler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_cpy_siparisler_urunler">
+        <MappingFragment StoreEntitySet="tbl_cpy_siparisler_urunler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="indirim_yuzde" ColumnName="indirim_yuzde" />
+          <ScalarProperty Name="indirim_ad" ColumnName="indirim_ad" />
+          <ScalarProperty Name="indirim_id" ColumnName="indirim_id" />
+          <ScalarProperty Name="kargo_hesaplama_id" ColumnName="kargo_hesaplama_id" />
+          <ScalarProperty Name="kdv_id" ColumnName="kdv_id" />
+          <ScalarProperty Name="kdv" ColumnName="kdv" />
+          <ScalarProperty Name="para_birimi_id" ColumnName="para_birimi_id" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="kg" ColumnName="kg" />
+          <ScalarProperty Name="desi" ColumnName="desi" />
+          <ScalarProperty Name="yukseklik" ColumnName="yukseklik" />
+          <ScalarProperty Name="boy" ColumnName="boy" />
+          <ScalarProperty Name="en" ColumnName="en" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="on_aciklama" ColumnName="on_aciklama" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="video_kategori" ColumnName="video_kategori" />
+          <ScalarProperty Name="video_kategori_id" ColumnName="video_kategori_id" />
+          <ScalarProperty Name="resim_kategori" ColumnName="resim_kategori" />
+          <ScalarProperty Name="resim_kategori_id" ColumnName="resim_kategori_id" />
+          <ScalarProperty Name="resim" ColumnName="resim" />
+          <ScalarProperty Name="resim_id" ColumnName="resim_id" />
+          <ScalarProperty Name="kod" ColumnName="kod" />
+          <ScalarProperty Name="kod_id" ColumnName="kod_id" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="urunler_id" ColumnName="urunler_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_diller">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_diller">
+        <MappingFragment StoreEntitySet="tbl_diller">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="ana_dil" ColumnName="ana_dil" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="para_birimi_id" ColumnName="para_birimi_id" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="kodlama" ColumnName="kodlama" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_dosyalar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_dosyalar">
+        <MappingFragment StoreEntitySet="tbl_dosyalar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_dosyalar_kategori">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_dosyalar_kategori">
+        <MappingFragment StoreEntitySet="tbl_dosyalar_kategori">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="kategori_id" ColumnName="kategori_id" />
+          <ScalarProperty Name="kategori_tip" ColumnName="kategori_tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_dosyalar_kategoriler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_dosyalar_kategoriler">
+        <MappingFragment StoreEntitySet="tbl_dosyalar_kategoriler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="kategori_id" ColumnName="kategori_id" />
+          <ScalarProperty Name="dosya_id" ColumnName="dosya_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_etiketler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_etiketler">
+        <MappingFragment StoreEntitySet="tbl_etiketler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="anasayfa" ColumnName="anasayfa" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_firma_adresler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_firma_adresler">
+        <MappingFragment StoreEntitySet="tbl_firma_adresler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="harita_url" ColumnName="harita_url" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="firma_id" ColumnName="firma_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_giris_cikislar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_giris_cikislar">
+        <MappingFragment StoreEntitySet="tbl_giris_cikislar">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="islem" ColumnName="islem" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_giris_cikislar_hatalar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_giris_cikislar_hatalar">
+        <MappingFragment StoreEntitySet="tbl_giris_cikislar_hatalar">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="islem" ColumnName="islem" />
+          <ScalarProperty Name="kullanici_adi" ColumnName="kullanici_adi" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_gunluk_kurlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_gunluk_kurlar">
+        <MappingFragment StoreEntitySet="tbl_gunluk_kurlar">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="kur_tarih" ColumnName="kur_tarih" />
+          <ScalarProperty Name="efektif_satis" ColumnName="efektif_satis" />
+          <ScalarProperty Name="efektif_alis" ColumnName="efektif_alis" />
+          <ScalarProperty Name="satis" ColumnName="satis" />
+          <ScalarProperty Name="alis" ColumnName="alis" />
+          <ScalarProperty Name="para_birimi_id" ColumnName="para_birimi_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_haberler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_haberler">
+        <MappingFragment StoreEntitySet="tbl_haberler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="resim" ColumnName="resim" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_headerlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_headerlar">
+        <MappingFragment StoreEntitySet="tbl_headerlar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="resim" ColumnName="resim" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_hesap_nolar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_hesap_nolar">
+        <MappingFragment StoreEntitySet="tbl_hesap_nolar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="iban" ColumnName="iban" />
+          <ScalarProperty Name="hesap_no" ColumnName="hesap_no" />
+          <ScalarProperty Name="hesap_sahibi" ColumnName="hesap_sahibi" />
+          <ScalarProperty Name="sube_kodu" ColumnName="sube_kodu" />
+          <ScalarProperty Name="sube" ColumnName="sube" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ikonlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_ikonlar">
+        <MappingFragment StoreEntitySet="tbl_ikonlar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="konum" ColumnName="konum" />
+          <ScalarProperty Name="yer" ColumnName="yer" />
+          <ScalarProperty Name="alt" ColumnName="alt" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_iletisimler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_iletisimler">
+        <MappingFragment StoreEntitySet="tbl_iletisimler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="okundu" ColumnName="okundu" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="gorusler" ColumnName="gorusler" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="ad_soyad" ColumnName="ad_soyad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_indirimler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_indirimler">
+        <MappingFragment StoreEntitySet="tbl_indirimler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="yuzde" ColumnName="yuzde" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_indirimler_komisyonlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_indirimler_komisyonlar">
+        <MappingFragment StoreEntitySet="tbl_indirimler_komisyonlar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="yuzde" ColumnName="yuzde" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="odeme_sekli_id" ColumnName="odeme_sekli_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_islemler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_islemler">
+        <MappingFragment StoreEntitySet="tbl_islemler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="islem" ColumnName="islem" />
+          <ScalarProperty Name="kayit_id" ColumnName="kayit_id" />
+          <ScalarProperty Name="tablo" ColumnName="tablo" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kargo_ulke_bolge">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_kargo_ulke_bolge">
+        <MappingFragment StoreEntitySet="tbl_kargo_ulke_bolge">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="desi" ColumnName="desi" />
+          <ScalarProperty Name="bolge_id" ColumnName="bolge_id" />
+          <ScalarProperty Name="kargo_id" ColumnName="kargo_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kargo_ulke_il_bolge">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_kargo_ulke_il_bolge">
+        <MappingFragment StoreEntitySet="tbl_kargo_ulke_il_bolge">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="desi" ColumnName="desi" />
+          <ScalarProperty Name="bolge_id" ColumnName="bolge_id" />
+          <ScalarProperty Name="kargo_id" ColumnName="kargo_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kategoriler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_kategoriler">
+        <MappingFragment StoreEntitySet="tbl_kategoriler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="ust" ColumnName="ust" />
+          <ScalarProperty Name="resim" ColumnName="resim" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="kategori_id" ColumnName="kategori_id" />
+          <ScalarProperty Name="kategori_tip" ColumnName="kategori_tip" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kodlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_kodlar">
+        <MappingFragment StoreEntitySet="tbl_kodlar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="kod" ColumnName="kod" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kullanicilar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_kullanicilar">
+        <MappingFragment StoreEntitySet="tbl_kullanicilar">
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="gsm" ColumnName="gsm" />
+          <ScalarProperty Name="alan_kodu_id" ColumnName="alan_kodu_id" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="ad_soyad" ColumnName="ad_soyad" />
+          <ScalarProperty Name="uyelik_metot_info" ColumnName="uyelik_metot_info" />
+          <ScalarProperty Name="uyelik_metot_uye_id" ColumnName="uyelik_metot_uye_id" />
+          <ScalarProperty Name="uyelik_metot_id" ColumnName="uyelik_metot_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kullanicilar_adresler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_kullanicilar_adresler">
+        <MappingFragment StoreEntitySet="tbl_kullanicilar_adresler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="acik_adres" ColumnName="acik_adres" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="posta_kodu" ColumnName="posta_kodu" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="ilce_id" ColumnName="ilce_id" />
+          <ScalarProperty Name="il" ColumnName="il" />
+          <ScalarProperty Name="il_id" ColumnName="il_id" />
+          <ScalarProperty Name="eyalet" ColumnName="eyalet" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_kullanicilar_vergi_bilgiler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_kullanicilar_vergi_bilgiler">
+        <MappingFragment StoreEntitySet="tbl_kullanicilar_vergi_bilgiler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="tc_kimlik_no" ColumnName="tc_kimlik_no" />
+          <ScalarProperty Name="vergi_no" ColumnName="vergi_no" />
+          <ScalarProperty Name="vergi_dairesi" ColumnName="vergi_dairesi" />
+          <ScalarProperty Name="firma" ColumnName="firma" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="adres_id" ColumnName="adres_id" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_mailler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_mailler">
+        <MappingFragment StoreEntitySet="tbl_mailler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_mailler_gonderilen">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_mailler_gonderilen">
+        <MappingFragment StoreEntitySet="tbl_mailler_gonderilen">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="mail_id" ColumnName="mail_id" />
+          <ScalarProperty Name="maillist_id" ColumnName="maillist_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_maillist_mailler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_maillist_mailler">
+        <MappingFragment StoreEntitySet="tbl_maillist_mailler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="ad_soyad" ColumnName="ad_soyad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_markalar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_markalar">
+        <MappingFragment StoreEntitySet="tbl_markalar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_menuler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_menuler">
+        <MappingFragment StoreEntitySet="tbl_menuler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_odeme_bildirimler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_odeme_bildirimler">
+        <MappingFragment StoreEntitySet="tbl_odeme_bildirimler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="para_birimi_id" ColumnName="para_birimi_id" />
+          <ScalarProperty Name="tutar" ColumnName="tutar" />
+          <ScalarProperty Name="odeme_tarih" ColumnName="odeme_tarih" />
+          <ScalarProperty Name="islem_no" ColumnName="islem_no" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="odeme_bildirimler_hesap_nolar_id" ColumnName="odeme_bildirimler_hesap_nolar_id" />
+          <ScalarProperty Name="siparis_id" ColumnName="siparis_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_ayar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_ayar">
+        <MappingFragment StoreEntitySet="tbl_sbt_ayar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="stok" ColumnName="stok" />
+          <ScalarProperty Name="blok_urun_kayit_sayi" ColumnName="blok_urun_kayit_sayi" />
+          <ScalarProperty Name="liste_sayfa_kayit_sayi" ColumnName="liste_sayfa_kayit_sayi" />
+          <ScalarProperty Name="liste_kayit_sayi" ColumnName="liste_kayit_sayi" />
+          <ScalarProperty Name="sosyal_ag_ikon" ColumnName="sosyal_ag_ikon" />
+          <ScalarProperty Name="sepet_buton" ColumnName="sepet_buton" />
+          <ScalarProperty Name="urun_taksit" ColumnName="urun_taksit" />
+          <ScalarProperty Name="urun_yorum" ColumnName="urun_yorum" />
+          <ScalarProperty Name="urun_bilgi" ColumnName="urun_bilgi" />
+          <ScalarProperty Name="uye_kaydi" ColumnName="uye_kaydi" />
+          <ScalarProperty Name="kdv_fiyat" ColumnName="kdv_fiyat" />
+          <ScalarProperty Name="kdv" ColumnName="kdv" />
+          <ScalarProperty Name="fiyat_hepsi" ColumnName="fiyat_hepsi" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="buton" ColumnName="buton" />
+          <ScalarProperty Name="kkdf" ColumnName="kkdf" />
+          <ScalarProperty Name="bsmv" ColumnName="bsmv" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="root_yonlendir" ColumnName="root_yonlendir" />
+          <ScalarProperty Name="www" ColumnName="www" />
+          <ScalarProperty Name="mode" ColumnName="mode" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_banka">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_banka">
+        <MappingFragment StoreEntitySet="tbl_sbt_banka">
+          <ScalarProperty Name="renk" ColumnName="renk" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="marka" ColumnName="marka" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_banka_kredi_karti">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_banka_kredi_karti">
+        <MappingFragment StoreEntitySet="tbl_sbt_banka_kredi_karti">
+          <ScalarProperty Name="kredi_karti_tip_id" ColumnName="kredi_karti_tip_id" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_banka_kredi_karti_tip">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_banka_kredi_karti_tip">
+        <MappingFragment StoreEntitySet="tbl_sbt_banka_kredi_karti_tip">
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_firma">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_firma">
+        <MappingFragment StoreEntitySet="tbl_sbt_firma">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="paypal" ColumnName="paypal" />
+          <ScalarProperty Name="twitter" ColumnName="twitter" />
+          <ScalarProperty Name="google_plus" ColumnName="google_plus" />
+          <ScalarProperty Name="facebook" ColumnName="facebook" />
+          <ScalarProperty Name="vimeo" ColumnName="vimeo" />
+          <ScalarProperty Name="youtube" ColumnName="youtube" />
+          <ScalarProperty Name="flickr" ColumnName="flickr" />
+          <ScalarProperty Name="google_dogrulama_kodu" ColumnName="google_dogrulama_kodu" />
+          <ScalarProperty Name="google_analytics" ColumnName="google_analytics" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="domain" ColumnName="domain" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="tc_kimlik_no" ColumnName="tc_kimlik_no" />
+          <ScalarProperty Name="vergi_no" ColumnName="vergi_no" />
+          <ScalarProperty Name="vergi_dairesi" ColumnName="vergi_dairesi" />
+          <ScalarProperty Name="marka" ColumnName="marka" />
+          <ScalarProperty Name="unvan" ColumnName="unvan" />
+          <ScalarProperty Name="firma" ColumnName="firma" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_kargo">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_kargo">
+        <MappingFragment StoreEntitySet="tbl_sbt_kargo">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="ucretsiz_desi" ColumnName="ucretsiz_desi" />
+          <ScalarProperty Name="ucretsiz_fiyat" ColumnName="ucretsiz_fiyat" />
+          <ScalarProperty Name="sabit_fiyat" ColumnName="sabit_fiyat" />
+          <ScalarProperty Name="desi_birim_fiyat" ColumnName="desi_birim_fiyat" />
+          <ScalarProperty Name="km_birim_fiyat" ColumnName="km_birim_fiyat" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_kargo_hesaplama_tip">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_kargo_hesaplama_tip">
+        <MappingFragment StoreEntitySet="tbl_sbt_kargo_hesaplama_tip">
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_kdv">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_kdv">
+        <MappingFragment StoreEntitySet="tbl_sbt_kdv">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="yuzde" ColumnName="yuzde" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_kredi_karti_tip">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_kredi_karti_tip">
+        <MappingFragment StoreEntitySet="tbl_sbt_kredi_karti_tip">
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_mail">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_mail">
+        <MappingFragment StoreEntitySet="tbl_sbt_mail">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="port" ColumnName="port" />
+          <ScalarProperty Name="host" ColumnName="host" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="kullanici_adi" ColumnName="kullanici_adi" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_menu">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_menu">
+        <MappingFragment StoreEntitySet="tbl_sbt_menu">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="root" ColumnName="root" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="menu_id" ColumnName="menu_id" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_odeme_sekli">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_odeme_sekli">
+        <MappingFragment StoreEntitySet="tbl_sbt_odeme_sekli">
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_para_birim">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_para_birim">
+        <MappingFragment StoreEntitySet="tbl_sbt_para_birim">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="kur" ColumnName="kur" />
+          <ScalarProperty Name="hesaplama_birim" ColumnName="hesaplama_birim" />
+          <ScalarProperty Name="hesaplama_tip" ColumnName="hesaplama_tip" />
+          <ScalarProperty Name="sabit_kur" ColumnName="sabit_kur" />
+          <ScalarProperty Name="uzunluk" ColumnName="uzunluk" />
+          <ScalarProperty Name="simge" ColumnName="simge" />
+          <ScalarProperty Name="kisaltma" ColumnName="kisaltma" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sabit">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sabit">
+        <MappingFragment StoreEntitySet="tbl_sbt_sabit">
+          <ScalarProperty Name="xml" ColumnName="xml" />
+          <ScalarProperty Name="shop" ColumnName="shop" />
+          <ScalarProperty Name="sayfa" ColumnName="sayfa" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sanal_pos">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sanal_pos">
+        <MappingFragment StoreEntitySet="tbl_sbt_sanal_pos">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="renk" ColumnName="renk" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="kampanya_kodu" ColumnName="kampanya_kodu" />
+          <ScalarProperty Name="sifir_komisyon" ColumnName="sifir_komisyon" />
+          <ScalarProperty Name="pesin" ColumnName="pesin" />
+          <ScalarProperty Name="vade_kontrol" ColumnName="vade_kontrol" />
+          <ScalarProperty Name="puan_kullanim" ColumnName="puan_kullanim" />
+          <ScalarProperty Name="test_url" ColumnName="test_url" />
+          <ScalarProperty Name="test" ColumnName="test" />
+          <ScalarProperty Name="on_otorizasyon" ColumnName="on_otorizasyon" />
+          <ScalarProperty Name="C3d_secure_hata_url" ColumnName="3d_secure_hata_url" />
+          <ScalarProperty Name="C3d_secure_geri_donus_url" ColumnName="3d_secure_geri_donus_url" />
+          <ScalarProperty Name="C3d_secure_url" ColumnName="3d_secure_url" />
+          <ScalarProperty Name="C3d_secure_key" ColumnName="3d_secure_key" />
+          <ScalarProperty Name="C3d_secure" ColumnName="3d_secure" />
+          <ScalarProperty Name="xml_url" ColumnName="xml_url" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="pos_no" ColumnName="pos_no" />
+          <ScalarProperty Name="api_kullanicisi" ColumnName="api_kullanicisi" />
+          <ScalarProperty Name="magaza_no" ColumnName="magaza_no" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="kod_id" ColumnName="kod_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sanal_pos_banka">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sanal_pos_banka">
+        <MappingFragment StoreEntitySet="tbl_sbt_sanal_pos_banka">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="bin_kontrol" ColumnName="bin_kontrol" />
+          <ScalarProperty Name="ana_banka" ColumnName="ana_banka" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="sanal_pos_id" ColumnName="sanal_pos_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sanal_pos_bin">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sanal_pos_bin">
+        <MappingFragment StoreEntitySet="tbl_sbt_sanal_pos_bin">
+          <ScalarProperty Name="bin_kodu" ColumnName="bin_kodu" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="kredi_karti_tip_id" ColumnName="kredi_karti_tip_id" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sanal_pos_kod">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sanal_pos_kod">
+        <MappingFragment StoreEntitySet="tbl_sbt_sanal_pos_kod">
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sanal_pos_oran">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sanal_pos_oran">
+        <MappingFragment StoreEntitySet="tbl_sbt_sanal_pos_oran">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="oran" ColumnName="oran" />
+          <ScalarProperty Name="ay" ColumnName="ay" />
+          <ScalarProperty Name="sanal_pos_id" ColumnName="sanal_pos_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sanal_pos_para_birim">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sanal_pos_para_birim">
+        <MappingFragment StoreEntitySet="tbl_sbt_sanal_pos_para_birim">
+          <ScalarProperty Name="kisaltma" ColumnName="kisaltma" />
+          <ScalarProperty Name="para_birim_id" ColumnName="para_birim_id" />
+          <ScalarProperty Name="sanal_pos_id" ColumnName="sanal_pos_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_sanal_pos_test_kart">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_sanal_pos_test_kart">
+        <MappingFragment StoreEntitySet="tbl_sbt_sanal_pos_test_kart">
+          <ScalarProperty Name="C3DSecure" ColumnName="3DSecure" />
+          <ScalarProperty Name="CVC" ColumnName="CVC" />
+          <ScalarProperty Name="son_kullanim" ColumnName="son_kullanim" />
+          <ScalarProperty Name="kart_no" ColumnName="kart_no" />
+          <ScalarProperty Name="sanal_pos_id" ColumnName="sanal_pos_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_siparis_durum">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_siparis_durum">
+        <MappingFragment StoreEntitySet="tbl_sbt_siparis_durum">
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_ulke">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_ulke">
+        <MappingFragment StoreEntitySet="tbl_sbt_ulke">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="alan_kodu" ColumnName="alan_kodu" />
+          <ScalarProperty Name="kisaltma" ColumnName="kisaltma" />
+          <ScalarProperty Name="dil_kisaltma" ColumnName="dil_kisaltma" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="bolge_id" ColumnName="bolge_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_ulke_bolge">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_ulke_bolge">
+        <MappingFragment StoreEntitySet="tbl_sbt_ulke_bolge">
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_ulke_il">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_ulke_il">
+        <MappingFragment StoreEntitySet="tbl_sbt_ulke_il">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+          <ScalarProperty Name="alan_kodu" ColumnName="alan_kodu" />
+          <ScalarProperty Name="bolge_id" ColumnName="bolge_id" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_ulke_il_bolge">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_ulke_il_bolge">
+        <MappingFragment StoreEntitySet="tbl_sbt_ulke_il_bolge">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_ulke_ilce">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_ulke_ilce">
+        <MappingFragment StoreEntitySet="tbl_sbt_ulke_ilce">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="merkez" ColumnName="merkez" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="il_id" ColumnName="il_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_uyelik_metot">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_uyelik_metot">
+        <MappingFragment StoreEntitySet="tbl_sbt_uyelik_metot">
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sbt_uyelik_metot_ayar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sbt_uyelik_metot_ayar">
+        <MappingFragment StoreEntitySet="tbl_sbt_uyelik_metot_ayar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="ek_alan2" ColumnName="ek_alan2" />
+          <ScalarProperty Name="ek_alan1" ColumnName="ek_alan1" />
+          <ScalarProperty Name="app_key" ColumnName="app_key" />
+          <ScalarProperty Name="app_id" ColumnName="app_id" />
+          <ScalarProperty Name="uyelik_metot_id" ColumnName="uyelik_metot_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_scriptler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_scriptler">
+        <MappingFragment StoreEntitySet="tbl_scriptler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="script" ColumnName="script" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="menu_id" ColumnName="menu_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_sepetler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_sepetler">
+        <MappingFragment StoreEntitySet="tbl_sepetler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="adet" ColumnName="adet" />
+          <ScalarProperty Name="urun_id" ColumnName="urun_id" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="session_id" ColumnName="session_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_siparis_durumlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_siparis_durumlar">
+        <MappingFragment StoreEntitySet="tbl_siparis_durumlar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="siparis_durum_id" ColumnName="siparis_durum_id" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_siparisler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_siparisler">
+        <MappingFragment StoreEntitySet="tbl_siparisler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="kur_tarih" ColumnName="kur_tarih" />
+          <ScalarProperty Name="odeme_sekli_id" ColumnName="odeme_sekli_id" />
+          <ScalarProperty Name="para_birimi_id" ColumnName="para_birimi_id" />
+          <ScalarProperty Name="toplam" ColumnName="toplam" />
+          <ScalarProperty Name="puan_tutari" ColumnName="puan_tutari" />
+          <ScalarProperty Name="kargo_payi" ColumnName="kargo_payi" />
+          <ScalarProperty Name="komisyon_tutari" ColumnName="komisyon_tutari" />
+          <ScalarProperty Name="indirim_komisyon_id" ColumnName="indirim_komisyon_id" />
+          <ScalarProperty Name="genel_toplam" ColumnName="genel_toplam" />
+          <ScalarProperty Name="toplam_kdv" ColumnName="toplam_kdv" />
+          <ScalarProperty Name="toplam_tutar" ColumnName="toplam_tutar" />
+          <ScalarProperty Name="indirim_tutari" ColumnName="indirim_tutari" />
+          <ScalarProperty Name="tutar" ColumnName="tutar" />
+          <ScalarProperty Name="vergi_bilgileri_id" ColumnName="vergi_bilgileri_id" />
+          <ScalarProperty Name="fatura_adres_id" ColumnName="fatura_adres_id" />
+          <ScalarProperty Name="kargo_adres_id" ColumnName="kargo_adres_id" />
+          <ScalarProperty Name="no" ColumnName="no" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_siparisler_durumlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_siparisler_durumlar">
+        <MappingFragment StoreEntitySet="tbl_siparisler_durumlar">
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="siparis_durum_id" ColumnName="siparis_durum_id" />
+          <ScalarProperty Name="siparis_id" ColumnName="siparis_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_siparisler_gonderimler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_siparisler_gonderimler">
+        <MappingFragment StoreEntitySet="tbl_siparisler_gonderimler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="takip_no" ColumnName="takip_no" />
+          <ScalarProperty Name="kargo_id" ColumnName="kargo_id" />
+          <ScalarProperty Name="siparis_id" ColumnName="siparis_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_siparisler_odemeler_kk">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_siparisler_odemeler_kk">
+        <MappingFragment StoreEntitySet="tbl_siparisler_odemeler_kk">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="referans_no" ColumnName="referans_no" />
+          <ScalarProperty Name="onay_kodu" ColumnName="onay_kodu" />
+          <ScalarProperty Name="islem_id" ColumnName="islem_id" />
+          <ScalarProperty Name="kart_no" ColumnName="kart_no" />
+          <ScalarProperty Name="ad_soyad" ColumnName="ad_soyad" />
+          <ScalarProperty Name="C3d_secure" ColumnName="3d_secure" />
+          <ScalarProperty Name="sanal_pos_oranlar_id" ColumnName="sanal_pos_oranlar_id" />
+          <ScalarProperty Name="sanal_pos_id" ColumnName="sanal_pos_id" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="siparis_id" ColumnName="siparis_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_siparisler_urunler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_siparisler_urunler">
+        <MappingFragment StoreEntitySet="tbl_siparisler_urunler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="adet" ColumnName="adet" />
+          <ScalarProperty Name="siparisler_urunler_id" ColumnName="siparisler_urunler_id" />
+          <ScalarProperty Name="sepet_id" ColumnName="sepet_id" />
+          <ScalarProperty Name="siparis_id" ColumnName="siparis_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_textler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_textler">
+        <MappingFragment StoreEntitySet="tbl_textler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabitler_id" ColumnName="sabitler_id" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_urunler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_urunler">
+        <MappingFragment StoreEntitySet="tbl_urunler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="anasayfa" ColumnName="anasayfa" />
+          <ScalarProperty Name="yeni" ColumnName="yeni" />
+          <ScalarProperty Name="stok" ColumnName="stok" />
+          <ScalarProperty Name="indirim_id" ColumnName="indirim_id" />
+          <ScalarProperty Name="kargo_hesaplama_id" ColumnName="kargo_hesaplama_id" />
+          <ScalarProperty Name="kdv_id" ColumnName="kdv_id" />
+          <ScalarProperty Name="kdv" ColumnName="kdv" />
+          <ScalarProperty Name="para_birimi_id" ColumnName="para_birimi_id" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="kg" ColumnName="kg" />
+          <ScalarProperty Name="desi" ColumnName="desi" />
+          <ScalarProperty Name="yukseklik" ColumnName="yukseklik" />
+          <ScalarProperty Name="boy" ColumnName="boy" />
+          <ScalarProperty Name="en" ColumnName="en" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+          <ScalarProperty Name="on_aciklama" ColumnName="on_aciklama" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="video_kategori_id" ColumnName="video_kategori_id" />
+          <ScalarProperty Name="resim_kategori_id" ColumnName="resim_kategori_id" />
+          <ScalarProperty Name="resim_id" ColumnName="resim_id" />
+          <ScalarProperty Name="kod_id" ColumnName="kod_id" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_urunler_etiketler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_urunler_etiketler">
+        <MappingFragment StoreEntitySet="tbl_urunler_etiketler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="urun_id" ColumnName="urun_id" />
+          <ScalarProperty Name="etiket_id" ColumnName="etiket_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_urunler_kategoriler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_urunler_kategoriler">
+        <MappingFragment StoreEntitySet="tbl_urunler_kategoriler">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="ana" ColumnName="ana" />
+          <ScalarProperty Name="kategori_id" ColumnName="kategori_id" />
+          <ScalarProperty Name="urun_id" ColumnName="urun_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_urunler_markalar">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_urunler_markalar">
+        <MappingFragment StoreEntitySet="tbl_urunler_markalar">
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="admin_id_gun" ColumnName="admin_id_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="admin_id_ek" ColumnName="admin_id_ek" />
+          <ScalarProperty Name="ana" ColumnName="ana" />
+          <ScalarProperty Name="marka_id" ColumnName="marka_id" />
+          <ScalarProperty Name="urun_id" ColumnName="urun_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ziyaretler">
+      <EntityTypeMapping TypeName="MySQLDataModel.tbl_ziyaretler">
+        <MappingFragment StoreEntitySet="tbl_ziyaretler">
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="marka_id" ColumnName="marka_id" />
+          <ScalarProperty Name="etiket_id" ColumnName="etiket_id" />
+          <ScalarProperty Name="kategori_id" ColumnName="kategori_id" />
+          <ScalarProperty Name="urun_id" ColumnName="urun_id" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_dosyalar_kategori">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_dosyalar_kategori">
+        <MappingFragment StoreEntitySet="view_dosyalar_kategori">
+          <ScalarProperty Name="ust_kategori_baslik" ColumnName="ust_kategori_baslik" />
+          <ScalarProperty Name="ust_kategori_id" ColumnName="ust_kategori_id" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_kategoriler">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_kategoriler">
+        <MappingFragment StoreEntitySet="view_kategoriler">
+          <ScalarProperty Name="ust_kategori_baslik" ColumnName="ust_kategori_baslik" />
+          <ScalarProperty Name="ust_kategori_id" ColumnName="ust_kategori_id" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="dil_id" ColumnName="dil_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_kullanicilar_adresler">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_kullanicilar_adresler">
+        <MappingFragment StoreEntitySet="view_kullanicilar_adresler">
+          <ScalarProperty Name="VergiTcNo" ColumnName="VergiTcNo" />
+          <ScalarProperty Name="VergiNo" ColumnName="VergiNo" />
+          <ScalarProperty Name="VergiDaire" ColumnName="VergiDaire" />
+          <ScalarProperty Name="VergiFirma" ColumnName="VergiFirma" />
+          <ScalarProperty Name="VergiTip" ColumnName="VergiTip" />
+          <ScalarProperty Name="tarih_gun" ColumnName="tarih_gun" />
+          <ScalarProperty Name="tarih_ek" ColumnName="tarih_ek" />
+          <ScalarProperty Name="acik_adres" ColumnName="acik_adres" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="posta_kodu" ColumnName="posta_kodu" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="ilce_id" ColumnName="ilce_id" />
+          <ScalarProperty Name="il" ColumnName="il" />
+          <ScalarProperty Name="il_id" ColumnName="il_id" />
+          <ScalarProperty Name="eyalet" ColumnName="eyalet" />
+          <ScalarProperty Name="ulke_id" ColumnName="ulke_id" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_pos_bankalar_taksit">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_pos_bankalar_taksit">
+        <MappingFragment StoreEntitySet="view_pos_bankalar_taksit">
+          <ScalarProperty Name="oran_onay_d" ColumnName="oran_onay_d" />
+          <ScalarProperty Name="oran_onay" ColumnName="oran_onay" />
+          <ScalarProperty Name="oran" ColumnName="oran" />
+          <ScalarProperty Name="ay" ColumnName="ay" />
+          <ScalarProperty Name="bin_kontrol_d" ColumnName="bin_kontrol_d" />
+          <ScalarProperty Name="bin_kontrol" ColumnName="bin_kontrol" />
+          <ScalarProperty Name="banka_onay_d" ColumnName="banka_onay_d" />
+          <ScalarProperty Name="banka_onay" ColumnName="banka_onay" />
+          <ScalarProperty Name="banka" ColumnName="banka" />
+          <ScalarProperty Name="ana_banka_d" ColumnName="ana_banka_d" />
+          <ScalarProperty Name="ana_banka" ColumnName="ana_banka" />
+          <ScalarProperty Name="banka_id" ColumnName="banka_id" />
+          <ScalarProperty Name="onay_d" ColumnName="onay_d" />
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="vade_kontrol_d" ColumnName="vade_kontrol_d" />
+          <ScalarProperty Name="vade_kontrol" ColumnName="vade_kontrol" />
+          <ScalarProperty Name="puan_kullanim_d" ColumnName="puan_kullanim_d" />
+          <ScalarProperty Name="puan_kullanim" ColumnName="puan_kullanim" />
+          <ScalarProperty Name="pesin_d" ColumnName="pesin_d" />
+          <ScalarProperty Name="pesin" ColumnName="pesin" />
+          <ScalarProperty Name="test_d" ColumnName="test_d" />
+          <ScalarProperty Name="test" ColumnName="test" />
+          <ScalarProperty Name="sanal_pos_id" ColumnName="sanal_pos_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_sayfa">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_sayfa">
+        <MappingFragment StoreEntitySet="view_sayfa">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="sayfa" ColumnName="sayfa" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="sabitler_id" ColumnName="sabitler_id" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="text_id" ColumnName="text_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_sayfa_kontrol">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_sayfa_kontrol">
+        <MappingFragment StoreEntitySet="view_sayfa_kontrol">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="sayfa" ColumnName="sayfa" />
+          <ScalarProperty Name="sabitler_id" ColumnName="sabitler_id" />
+          <ScalarProperty Name="sonuc" ColumnName="sonuc" />
+          <ScalarProperty Name="text_id" ColumnName="text_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_siparis_adresler">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_siparis_adresler">
+        <MappingFragment StoreEntitySet="view_siparis_adresler">
+          <ScalarProperty Name="KargoAcikAdresAdres" ColumnName="KargoAcikAdresAdres" />
+          <ScalarProperty Name="KargoAdres" ColumnName="KargoAdres" />
+          <ScalarProperty Name="KargoPostaKodu" ColumnName="KargoPostaKodu" />
+          <ScalarProperty Name="KargoIlce" ColumnName="KargoIlce" />
+          <ScalarProperty Name="KargoIl" ColumnName="KargoIl" />
+          <ScalarProperty Name="KargoUlke" ColumnName="KargoUlke" />
+          <ScalarProperty Name="KargoBaslik" ColumnName="KargoBaslik" />
+          <ScalarProperty Name="FaturaTcNo" ColumnName="FaturaTcNo" />
+          <ScalarProperty Name="FaturaVergiNo" ColumnName="FaturaVergiNo" />
+          <ScalarProperty Name="FaturaVergiDaire" ColumnName="FaturaVergiDaire" />
+          <ScalarProperty Name="FaturaVergiTip" ColumnName="FaturaVergiTip" />
+          <ScalarProperty Name="FaturaVergiFirma" ColumnName="FaturaVergiFirma" />
+          <ScalarProperty Name="FaturaAdres" ColumnName="FaturaAdres" />
+          <ScalarProperty Name="FaturaPostaKodu" ColumnName="FaturaPostaKodu" />
+          <ScalarProperty Name="FaturaIlce" ColumnName="FaturaIlce" />
+          <ScalarProperty Name="FaturaIl" ColumnName="FaturaIl" />
+          <ScalarProperty Name="FaturaUlke" ColumnName="FaturaUlke" />
+          <ScalarProperty Name="FaturaBaslik" ColumnName="FaturaBaslik" />
+          <ScalarProperty Name="vergi_bilgileri_id" ColumnName="vergi_bilgileri_id" />
+          <ScalarProperty Name="fatura_adres_id" ColumnName="fatura_adres_id" />
+          <ScalarProperty Name="kargo_adres_id" ColumnName="kargo_adres_id" />
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_siparis_durumlar">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_siparis_durumlar">
+        <MappingFragment StoreEntitySet="view_siparis_durumlar">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="sabitler_id" ColumnName="sabitler_id" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="text_id" ColumnName="text_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_siparis_durumlar_kontrol">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_siparis_durumlar_kontrol">
+        <MappingFragment StoreEntitySet="view_siparis_durumlar_kontrol">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="siparis_durum_id" ColumnName="siparis_durum_id" />
+          <ScalarProperty Name="sonuc" ColumnName="sonuc" />
+          <ScalarProperty Name="text_id" ColumnName="text_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_tablo_detaylari">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_tablo_detaylari">
+        <MappingFragment StoreEntitySet="view_tablo_detaylari">
+          <ScalarProperty Name="TABLE_COMMENT" ColumnName="TABLE_COMMENT" />
+          <ScalarProperty Name="CREATE_OPTIONS" ColumnName="CREATE_OPTIONS" />
+          <ScalarProperty Name="TABLE_COLLATION" ColumnName="TABLE_COLLATION" />
+          <ScalarProperty Name="CHECK_TIME" ColumnName="CHECK_TIME" />
+          <ScalarProperty Name="UPDATE_TIME" ColumnName="UPDATE_TIME" />
+          <ScalarProperty Name="CREATE_TIME" ColumnName="CREATE_TIME" />
+          <ScalarProperty Name="AUTO_INCREMENT" ColumnName="AUTO_INCREMENT" />
+          <ScalarProperty Name="INDEX_LENGTH" ColumnName="INDEX_LENGTH" />
+          <ScalarProperty Name="AVG_ROW_LENGTH" ColumnName="AVG_ROW_LENGTH" />
+          <ScalarProperty Name="TABLE_ROWS" ColumnName="TABLE_ROWS" />
+          <ScalarProperty Name="ROW_FORMAT" ColumnName="ROW_FORMAT" />
+          <ScalarProperty Name="ENGINE" ColumnName="ENGINE" />
+          <ScalarProperty Name="TABLE_TYPE" ColumnName="TABLE_TYPE" />
+          <ScalarProperty Name="TABLE_NAME" ColumnName="TABLE_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_text">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_text">
+        <MappingFragment StoreEntitySet="view_text">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="sabitler_id" ColumnName="sabitler_id" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="text_id" ColumnName="text_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_text_kontrol">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_text_kontrol">
+        <MappingFragment StoreEntitySet="view_text_kontrol">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="sabitler_id" ColumnName="sabitler_id" />
+          <ScalarProperty Name="sonuc" ColumnName="sonuc" />
+          <ScalarProperty Name="text_id" ColumnName="text_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_text_sayfa_kontrol">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_text_sayfa_kontrol">
+        <MappingFragment StoreEntitySet="view_text-sayfa_kontrol">
+          <ScalarProperty Name="onay" ColumnName="onay" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="dil" ColumnName="dil" />
+          <ScalarProperty Name="sayfa" ColumnName="sayfa" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="sabitler_id" ColumnName="sabitler_id" />
+          <ScalarProperty Name="sonuc" ColumnName="sonuc" />
+          <ScalarProperty Name="text_id" ColumnName="text_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_urunler_fiyat">
+      <EntityTypeMapping TypeName="MySQLDataModel.view_urunler_fiyat">
+        <MappingFragment StoreEntitySet="view_urunler_fiyat">
+          <ScalarProperty Name="sabit" ColumnName="sabit" />
+          <ScalarProperty Name="efektif_satis" ColumnName="efektif_satis" />
+          <ScalarProperty Name="efektif_alis" ColumnName="efektif_alis" />
+          <ScalarProperty Name="satis" ColumnName="satis" />
+          <ScalarProperty Name="alis" ColumnName="alis" />
+          <ScalarProperty Name="kisaltma" ColumnName="kisaltma" />
+          <ScalarProperty Name="para_birimi_id" ColumnName="para_birimi_id" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
